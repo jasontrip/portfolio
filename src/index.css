@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  color: #2F3237;
+  -webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
+
+h1 {
+	margin: 5px 0 5px 5px;
+	padding: 0;
+	font-size: 1.3em;
+	letter-spacing: .4em;
+}
+
+h2 {
+	margin: 0px 0 5px 0;
+	font-size: 1.0em;
+	letter-spacing: .3em;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.Header {
+	width: 100%;
+	height: 600px;
+}
+
+.Header-icon-bar {
+	width: 65px;
+	margin: 0 auto 20px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.Header-icons {
+	width: 16px;
+}
+
+.Header-title {
+	width: 100%;
+	text-align: left;
+}
+
+.Skills {
+	background-color: #2F3237;
+	color: white;
+	font-size: 1.1em;
+	letter-spacing: .2em;
+	height: 100%;
+}
+
+.Skills-title {
+	padding: 40px 0 10px 0;
+}
+
+.Skills-MERN-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 150px;
+	margin: 0 auto 15px auto;
+}
+
+.Skills-MERN-item {
+	text-align: left;
+}
+
+.Skills-MERN-item-image {
+	display: inline-block;
+	width: 60px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.Skills-MERN-item-text {
+	display: inline-block;
+	line-height: 55px;
+	width: 80px;
+	height: 100%;
+}
+
+.Skills-react-icon {
+  animation: icon-spin infinite 20s linear;
+}
+
+.Skills-node-icon {
+	width: 35px;
+}
+
+.Skills-mongo-icon {
+	width: 35px;
+	padding: 0 0 3px 0;
+}
+
+.Skills-nonMERN-list {
+	margin: 5px 0 75px 0;
+	font-size: .8em;
+}
+
+.NextPage {
+	font-size: smaller;
+}
+
+.NextPage-title {
+	margin: 0 0 10px 0;
+}
+
+.Project {
+	min-height: 600px;
+	font-size: 1em;
+	letter-spacing: .1em;
+}
+
+.Project-icon-wrapper {
+	padding: 20px 0 10px 0;
+	height: 60px;
+}
+
+.Project-icon {
+	width: 60px;
+}
+
+.Project-title {
+	font-size: 1.3em;
+	margin: 0 0 20px 0;
+}
+
+.Project-challenge {
+	min-width: 220px;
+	width: 75%;
+	margin: 0 auto 0 auto;
+}
+
+.Project-screenshot-and-link {
+	margin: 40px auto 40px auto;
+	width: 50%;
+	min-width: 200px;
+	border: 5px solid transparent;
+}
+
+.Project-screenshot {
+	width: 100%;
+	margin: 0 0 10px 0;
+	cursor: pointer;
+}
+
+.Project-screenshot-and-link:hover {
+	border: 5px yellow solid;
+}
+
+.Project-screenshot-and-link a  {
+	text-decoration: none;
+	cursor: pointer;
+	color: inherit;
+	font-size: 1.1em;
+}
+
+.Project-screenshot-and-link a:link {
+	color: inherit;
+}
+
+.Project-screenshot-and-link a:visited  {
+	color: inherit;
+}
+
+.Project-screenshot-and-link a:hover  {
+	font-weight: bold;
+}
+
+.Project-skills {
+	padding: 0 0 40px 0;
+}
+
+@keyframes icon-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

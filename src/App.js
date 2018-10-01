@@ -40,7 +40,7 @@ class App extends Component {
         	backgroundColor="#333333"
         	challenge="A full stack application with NodeJS using React on the front end."
         	screenshot={readingWorkshopScreenshot}
-        	skills="Javascript, JQuery, HTML, CSS,"
+        	skills="Javascript, HTML, CSS,"
             newSkills="NodeJs, Mongo(ose)  + React, Redux, Material-UI"
             url="https://reading-workshop-client.netlify.com/"
         />

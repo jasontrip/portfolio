@@ -29,6 +29,7 @@ export class Portfolio extends Component {
 				
         		<Project
                 	title="Project #1: United States Cabinet News"
+                    repo="news-site"
                 	backgroundColor="#FF7744"
                 	challenge="A front-end app that combines the use of two external API's."
                     story="I was interested to know more about what was going on in the US Cabinet, so I created this site to retrieve the news and enabled the user to click on an article to see a 5 sentence summary as well as the sentiment of the article. This project was fun because I was able to see how to use an artificial intelligence API and code using only JQuery for the front-end interface."
@@ -38,6 +39,7 @@ export class Portfolio extends Component {
                 />
                 <Project
                 	title="Project #2: Word Counter"
+                    repo="word-counter"
                 	color="#FFFFFF"
                 	icon={nodeIcon}
                 	iconWidth="40px"
@@ -51,6 +53,7 @@ export class Portfolio extends Component {
                 />
                 <Project
                 	title="Project #3: Readers Workshop"
+                    repo="reading-workshop-client"
                 	color="#FFFFFF"
                 	icon={reactIcon}
                 	iconWidth="65px"

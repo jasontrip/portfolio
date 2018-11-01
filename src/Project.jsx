@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import FeatherIcon from 'feather-icons-react';
 
 export class Project extends Component {
 	render() {
 		const {
-			icon, iconWidth, title, challenge, story,
+			icon, iconWidth, title, challenge, story, repo,
 			screenshot, url, skills, newSkills, backgroundColor, color
 		} = this.props;
+
+		console.log(repo)
 
 		const projectStyle = {
 			backgroundColor: backgroundColor,
@@ -39,6 +42,17 @@ export class Project extends Component {
 						onClick={() => window.location=url}
 					/>
 					<div><a href={url}>View a live demo</a></div>
+				</div>
+
+				<div
+					className="Project-repo"
+					onClick={() => window.location.href='https://github.com/jasontrip/' + repo}
+				>
+						<FeatherIcon
+							icon="github"
+							className="Project-repo-icon"
+						/>
+						View the source code
 				</div>
 
 				<div className="Project-skills">

@@ -205,6 +205,14 @@ h2 {
 	font-weight: bold;
 }
 
+.Project-repo {
+	margin: 0 0 20px 0;
+	cursor: pointer;
+}
+.Project-repo-icon {
+	vertical-align: middle;
+	margin: 0 10px 0 0;
+}
 .Project-skills {
 	padding: 0 0 40px 0;
 }

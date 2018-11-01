@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 export class Project extends Component {
 	render() {
 		const {
-			icon, iconWidth, title, challenge, screenshot, url, skills, newSkills, backgroundColor, color
+			icon, iconWidth, title, challenge, story,
+			screenshot, url, skills, newSkills, backgroundColor, color
 		} = this.props;
 
 		const projectStyle = {
@@ -16,7 +17,7 @@ export class Project extends Component {
 		}
 
 		return (
-			<div className="Project" style={projectStyle} >
+			<section className="Project" style={projectStyle} >
 
 				<div className="Project-icon-wrapper">
 					{ icon
@@ -28,6 +29,7 @@ export class Project extends Component {
 				<div>
 					<div className="Project-title">{title}</div>
 					<div className="Project-challenge">{challenge}</div>
+					<div className="Project-story">{story}</div>
 				</div>
 				<div className="Project-screenshot-and-link">
 					<img
@@ -43,7 +45,7 @@ export class Project extends Component {
 					<div>{skills}</div>
 					<div>{newSkills}</div>
 				</div>
-			</div>
+			</section>
 		);
 	}
 }

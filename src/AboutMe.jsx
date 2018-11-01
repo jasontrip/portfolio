@@ -10,7 +10,7 @@ export class AboutMe extends Component {
 				<div className="AboutMe-intro">
 					<Link to="/">Back to Portfolio</Link>
 					<p>
-						Full stack web developer, certified PMP, coach, and teacher, with 5 years of customer-facing experience.
+						Full stack web developer, certified PMP, coach, and teacher, with 4 1/2 years of customer-facing experience.
 					</p>
 					<p>
 						My story is a bit circuitous, but in short, I can code web apps using the latest technology, cross-functionally manage an integration between multiple organizations, and while I am highly technical, I am also an influential communicator and presentor.

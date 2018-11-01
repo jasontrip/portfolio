@@ -56,7 +56,7 @@ export class Portfolio extends Component {
                 	iconWidth="65px"
                 	backgroundColor="#333333"
                 	challenge="A full stack application with NodeJS using React on the front-end."
-                    story="Currently, I volunteer with All Students Matter, an organization that helps volunteers read with students in class. In these sessions, we host 'Readers Workshops' where the volunteer facilitates small-group literacy circles. There is often no system to record the data from these sessions, even though the practice is invaluable. So I created this app using React on the front-end to record brief information for each session. I enjoyed this challenge because learning React makes me a better Javascript programmer and I love the ability to prototype quickly, especially using a component library like Material-UI."
+                    story="Currently, I volunteer with All Students Matter, an organization that helps volunteers read with students in class. In these sessions, we host 'Readers Workshops' where the volunteer facilitates small-group literacy circles. There is often no system to record the data from these sessions, even though the practice is invaluable for improved learning outcomes. So I created this app using React on the front-end to record brief information for each session. I enjoyed this challenge because learning React makes me a better Javascript programmer and I love the ability to prototype quickly, especially using a component library like Material-UI."
                 	screenshot={readingWorkshopScreenshot}
                 	skills="Javascript, HTML, CSS,"
                     newSkills="NodeJs, Mongo(ose)  + React, Redux, Material-UI"

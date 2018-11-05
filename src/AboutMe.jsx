@@ -14,7 +14,7 @@ export class AboutMe extends Component {
 					</p>
 					<p>
 						I can code web apps using the latest technology, cross-functionally manage an integration between multiple organizations, and while I am highly technical, I am also an influential communicator and presenter.
-						If you want to know more, read on!
+						If you would like to know more of my story, read on!
 					</p>
 				</div>
 

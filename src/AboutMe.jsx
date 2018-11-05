@@ -13,7 +13,7 @@ export class AboutMe extends Component {
 						Full stack web developer, certified PMP, coach, and teacher, with 4 1/2 years of customer-facing experience.
 					</p>
 					<p>
-						My story is a bit circuitous, but in short, I can code web apps using the latest technology, cross-functionally manage an integration between multiple organizations, and while I am highly technical, I am also an influential communicator and presenter.
+						I can code web apps using the latest technology, cross-functionally manage an integration between multiple organizations, and while I am highly technical, I am also an influential communicator and presenter.
 						If you want to know more, read on!
 					</p>
 				</div>

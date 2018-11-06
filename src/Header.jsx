@@ -12,7 +12,7 @@ export class Header extends Component {
 			  	<div className="Header-title">
 			  		<h1>{title}</h1>
 			  	</div>
-          <img style={{ height: '125px' }} src={headshot} alt="headshot" />
+          <img style={{ height: '175px' }} src={headshot} alt="headshot" />
           <h2 className="Header-name">Jason Trip</h2>
           <div className="Header-icon-bar">
 						<FeatherIcon

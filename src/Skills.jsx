@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import NextPage from './NextPage';
 import reactIcon from './img/react-icon.svg';
 import nodejsIcon from './img/nodejs-icon.svg';
 import mongodbIcon from './img/mongodb-icon.svg';
@@ -43,6 +44,9 @@ export class Skills extends Component {
 				<div className="Skills-nonMERN-list">
 					Javascript, HTML, CSS, Git, SQL
 				</div>
+
+				<NextPage text="See Projects" href="#project1" />
+
 
 			</div>
 		);

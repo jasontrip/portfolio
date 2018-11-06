@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto 0 auto;
   padding: 0;
   font-family: 'Nunito', sans-serif;
   color: #2F3237;
@@ -66,8 +66,9 @@ h2 {
 }
 
 .Portfolio-header-and-skills {
+	min-height: 870px;
+	min-width: 375px;
 	height: 100vh;
-	min-height: 750px;
 }
 
 .Skills {
@@ -76,7 +77,7 @@ h2 {
 	font-size: 1.1em;
 	letter-spacing: .2em;
 	height: 100%;
-	padding: 0 0 75px 0;
+	padding: 0;
 }
 
 .Skills-title {
@@ -128,7 +129,13 @@ h2 {
 }
 
 .NextPage {
-	font-size: smaller;
+	font-size: normal;
+	margin: 40px 0 0 0;
+}
+
+.NextPage a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .NextPage-title {
@@ -139,6 +146,7 @@ h2 {
 	min-height: 600px;
 	font-size: 1em;
 	letter-spacing: .1em;
+	padding: 60px 0 0 0;
 }
 
 .Project-icon-wrapper {
@@ -152,11 +160,13 @@ h2 {
 
 .Project-title {
 	font-size: 1.3em;
+	font-weight: bold;
 	margin: 0 0 20px 0;
 }
 
 .Project-challenge {
 	min-width: 220px;
+	max-width: 700px;
 	width: 75%;
 	margin: 0 auto 0 auto;
 	font-weight: bold;
@@ -165,6 +175,7 @@ h2 {
 .Project-story {
 	min-width: 220px;
 	width: 75%;
+	max-width: 700px;
 	margin: 20px auto 0 auto;
 }
 

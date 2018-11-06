@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import NextPage from './NextPage';
 import FeatherIcon from 'feather-icons-react';
 
 export class Project extends Component {
 	render() {
 		const {
-			icon, iconWidth, title, challenge, story, repo,
+			icon, iconWidth, title, challenge, story, repo, nextProjectText, nextProjectHref,
 			screenshot, url, skills, newSkills, backgroundColor, color
 		} = this.props;
 
@@ -22,12 +23,14 @@ export class Project extends Component {
 		return (
 			<section className="Project" style={projectStyle} >
 
-				<div className="Project-icon-wrapper">
+				
 					{ icon
-						? (<img style={iconStyle} src={icon} alt={`${title} icon`} />)
+						? (<div className="Project-icon-wrapper">
+								<img style={iconStyle} src={icon} alt={`${title} icon`} />
+							 </div>
+							)
 						: "" 
 					}
-				</div>
 
 				<div>
 					<div className="Project-title">{title}</div>
@@ -59,6 +62,8 @@ export class Project extends Component {
 					<div>{skills}</div>
 					<div>{newSkills}</div>
 				</div>
+
+				{ (nextProjectText && nextProjectHref)?<NextPage text={nextProjectText} href={nextProjectHref} />:'' }
 			</section>
 		);
 	}

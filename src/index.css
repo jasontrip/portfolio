@@ -8,6 +8,22 @@ body {
 	-o-font-smoothing: antialiased;
 }
 
+a {
+	text-decoration: underline;
+}
+
+a:link {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
 h1 {
 	margin: 5px 0 5px 5px;
 	padding: 0;
@@ -150,7 +166,7 @@ h2 {
 }
 
 .Project-icon-wrapper {
-	padding: 20px 0 10px 0;
+	padding: 0 0 10px 0;
 	height: 60px;
 }
 
@@ -161,7 +177,8 @@ h2 {
 .Project-title {
 	font-size: 1.3em;
 	font-weight: bold;
-	margin: 0 0 20px 0;
+	margin: 0 auto 20px auto;
+	max-width: 75%;
 }
 
 .Project-challenge {

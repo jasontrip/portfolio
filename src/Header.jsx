@@ -15,16 +15,18 @@ export class Header extends Component {
           <img style={{ height: '175px' }} src={headshot} alt="headshot" />
           <h2 className="Header-name">Jason Trip</h2>
           <div className="Header-icon-bar">
-						<FeatherIcon
-							icon="github"
-							className="Header-icons"
-							onClick={() => window.location.href='https://github.com/jasontrip'}
-						/>
-						<FeatherIcon
-							icon="linkedin"
-							className="Header-icons"
-							onClick={() => window.location.href='https://www.linkedin.com/in/jasontrip/'}
-						/>
+          	<a href="https://github.com/jasontrip" target="_blank" rel="noopener noreferrer">
+							<FeatherIcon
+								icon="github"
+								className="Header-icons"
+							/>
+						</a>
+						<a href="https://github.com/jasontrip" target="_blank" rel="noopener noreferrer">
+							<FeatherIcon
+								icon="linkedin"
+								className="Header-icons"
+							/>
+						</a>
 					</div>
         </header>
 		);

@@ -5,11 +5,9 @@ import FeatherIcon from 'feather-icons-react';
 export class Project extends Component {
 	render() {
 		const {
-			icon, iconWidth, title, challenge, story, repo, nextProjectText, nextProjectHref,
+			icon, iconWidth, title, challenge, story, repos, nextProjectText, nextProjectHref,
 			screenshot, url, skills, newSkills, backgroundColor, color
 		} = this.props;
-
-		console.log(repo)
 
 		const projectStyle = {
 			backgroundColor: backgroundColor,
@@ -19,6 +17,23 @@ export class Project extends Component {
 		const iconStyle = {
 			width: iconWidth
 		}
+
+		const projectRepos = repos.map((repo, index) => (
+				<a
+					href={`https://github.com/jasontrip/${repo.repo}`}
+					target="_blank"
+					rel="noopener noreferrer"
+					key={index}
+				>
+					<div className="Project-repo">
+							<FeatherIcon
+								icon="github"
+								className="Project-repo-icon"
+							/>
+							{repo.text}
+					</div>
+				</a>
+		));
 
 		return (
 			<section className="Project" style={projectStyle} >
@@ -37,26 +52,19 @@ export class Project extends Component {
 					<div className="Project-challenge">{challenge}</div>
 					<div className="Project-story">{story}</div>
 				</div>
-				<div className="Project-screenshot-and-link">
-					<img
-						className="Project-screenshot"
-						src={screenshot}
-						alt={`${title} screenshot`}
-						onClick={() => window.location=url}
-					/>
-					<div><a href={url}>View a live demo</a></div>
-				</div>
-
-				<div
-					className="Project-repo"
-					onClick={() => window.location.href='https://github.com/jasontrip/' + repo}
-				>
-						<FeatherIcon
-							icon="github"
-							className="Project-repo-icon"
+				<a href={url} target="_blank" rel="noopener noreferrer">
+					<div className="Project-screenshot-and-link">
+						<img
+							className="Project-screenshot"
+							src={screenshot}
+							alt={`${title} screenshot`}
+							onClick={() => window.location=url}
 						/>
-						View the source code
-				</div>
+						<div>View a live demo</div>
+					</div>
+				</a>
+
+				{projectRepos}
 
 				<div className="Project-skills">
 					<div>{skills}</div>

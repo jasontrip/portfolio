@@ -58,7 +58,6 @@ export class Project extends Component {
 							className="Project-screenshot"
 							src={screenshot}
 							alt={`${title} screenshot`}
-							onClick={() => window.location=url}
 						/>
 						<div>View a live demo</div>
 					</div>

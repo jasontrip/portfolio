@@ -33,7 +33,7 @@ export class AboutMe extends Component {
 					</p>
 					<p>
 						I had the privilege to teach K-12 students at Stanford children's hospital school for the patients and later to teach K-6 at a unique project-based school for gifted children.
-						I can talk at length about the importance of authentic learning experiences tailored to the learner rather than rote learning and drill-and-kill.
+						I have developed a belief in the critical importance of authentic learning experiences tailored to the learner rather than rote learning and drill-and-kill.
 					</p>
 					<p>	
 						While teaching, I also was coaching volleyball.

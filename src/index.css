@@ -44,11 +44,22 @@ h2 {
 }
 
 .Header {
+	margin-top: 70px;
 	width: 100%;
 }
 
+.Header-menu-button {
+	margin-right: 20px;
+}
+
+.Header-headshot {
+	height: 200px;
+	margin: 10px 0 5px 0;
+	max-width: 90%;
+}
+
 .Header-icon-bar {
-	width: 65px;
+	width: 110px;
 	margin: 0 auto 20px auto;
 	display: flex;
 	flex-direction: row;
@@ -61,8 +72,7 @@ h2 {
 }
 
 .Header-title {
-	width: 100%;
-	text-align: left;
+	margin-left: 100px;
 }
 
 .Header-short-message {
@@ -81,8 +91,26 @@ h2 {
 	opacity: 0;
 }
 
+.LeftDrawer-header {
+	width: 100%;
+	border-bottom: 1px #f50057 solid;
+}
+.LeftDrawer-headshot {
+	height: 75px;
+	margin: 30px 100px 25px 100px;
+}
+
+.Drawer {
+  width: 300px;
+}
+
+.Drawer a {
+  text-decoration: none;
+  color: none;
+}
+
 .Portfolio-header-and-skills {
-	min-height: 900px;
+	min-height: 1000px;
 	min-width: 375px;
 	height: 100vh;
 }
@@ -159,10 +187,10 @@ h2 {
 }
 
 .Project {
+	padding-top: 70px;
 	min-height: 600px;
 	font-size: 1em;
 	letter-spacing: .1em;
-	padding: 60px 0 0 0;
 }
 
 .Project-icon-wrapper {

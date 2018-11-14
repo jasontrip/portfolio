@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Header from './Header';
 
 export class AboutMe extends Component {
@@ -8,7 +7,6 @@ export class AboutMe extends Component {
 			<div>
 				<Header title= "ABOUT ME" />
 				<div className="AboutMe-intro">
-					<Link to="/">Back to Portfolio</Link>
 					<p>
 						Full stack web developer, certified PMP, coach, and teacher, with 4 1/2 years of customer-facing experience.
 					</p>

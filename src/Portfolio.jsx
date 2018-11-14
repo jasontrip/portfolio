@@ -26,7 +26,10 @@ export class Portfolio extends Component {
     			</div>
           <Skills />
         </div>
-				<section id="project1">
+				<section>
+          <div style={{ position: 'relative' }}>
+            <div id="project1" style={{ position: 'absolute', top: -56, left: 0 }}></div>
+          </div>
       		<Project
           	title="Project #1: United States Cabinet News"
             repos={[{repo: 'news-site', text: 'view the code'}]}
@@ -40,7 +43,10 @@ export class Portfolio extends Component {
             nextProjectHref="#project2"
           />
         </section>
-        <section id="project2">
+        <section>
+          <div style={{ position: 'relative' }}>
+            <div id="project2" style={{ position: 'absolute', top: -56, left: 0 }}></div>
+          </div>
           <Project
           	title="Project #2: Word Counter"
             repos={[{repo: 'word-counter', text: 'view the code'}]}
@@ -58,7 +64,10 @@ export class Portfolio extends Component {
             nextProjectHref="#project3"
           />
         </section>
-        <section id="project3">
+        <section>
+          <div style={{ position: 'relative' }}>
+            <div id="project3" style={{ position: 'absolute', top: -56, left: 0 }}></div>
+          </div>
           <Project
           	title="Project #3: Readers Workshop"
             repos={[

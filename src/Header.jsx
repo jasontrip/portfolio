@@ -10,9 +10,10 @@ const styles = {
   root: {
     flexGrow: 1,
   },
-  grow: {
+  appTitle: {
     flexGrow: 1,
     textAlign: 'left',
+    letterSpacing: '.3em',
   },
   menuButton: {
     marginLeft: -12,
@@ -52,7 +53,7 @@ export class Header extends Component {
 				  		>
 				  			<Menu />
 				  		</IconButton>
-			  			<Typography variant="title" color="inherit" className={classes.grow}>
+			  			<Typography variant="h6" color="inherit" className={classes.appTitle}>
 			  				{title}
 			  			</Typography>
 				  	</Toolbar>

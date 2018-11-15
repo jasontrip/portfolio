@@ -34,7 +34,7 @@ export class Portfolio extends Component {
           	title="Project #1: United States Cabinet News"
             repos={[{repo: 'news-site', text: 'view the code'}]}
           	backgroundColor="#FF7744"
-          	challenge="A front-end app that combines the use of two external API's."
+          	challenge="A front-end app uses two external API's."
             story="I was interested to know more about what was going on in the US Cabinet, so I created this site to retrieve the news and enabled the user to click on an article to see a 5 sentence summary as well as the sentiment of the article. This project was fun because I was able to see how to use an artificial intelligence API and code using only JQuery for the front-end interface."
           	screenshot={newsScreenshot}
           	skills="Javascript, JQuery, HTML, CSS"

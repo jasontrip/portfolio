@@ -70,7 +70,10 @@ export class Project extends Component {
 					<div>{newSkills}</div>
 				</div>
 
-				{ (nextProjectText && nextProjectHref)?<NextPage text={nextProjectText} href={nextProjectHref} />:'' }
+				{ (nextProjectText && nextProjectHref)
+					?<NextPage text={nextProjectText} href={nextProjectHref} />
+					:''
+				}
 			</section>
 		);
 	}

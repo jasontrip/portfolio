@@ -52,6 +52,45 @@ h2 {
 	margin-right: 20px;
 }
 
+.Header-toolbar {
+	display: block;
+	width: 100%;
+}
+
+.Header-title {
+	text-align: left;
+}
+
+.Header-navbar-links {
+	width: 875px;
+	display: none;
+	margin: 0 auto;
+}
+
+.Header-navbar-links-ul {
+	list-style-type: none;
+}
+
+.Header-navbar-links-ul li {
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	letter-spacing: .2em;
+}
+
+.Header-navbar-links-ul li a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media (min-width: 900px) {
+	.Header-toolbar {
+		display: none;
+	}
+	.Header-navbar-links {
+		display: block;
+	}
+}
+
 .Header-headshot {
 	height: 200px;
 	margin: 10px 0 5px 0;
@@ -69,10 +108,6 @@ h2 {
 .Header-icons {
 	width: 16px;
 	cursor: pointer;
-}
-
-.Header-title {
-	margin-left: 100px;
 }
 
 .Header-short-message {

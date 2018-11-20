@@ -4,6 +4,7 @@ import { AppBar, IconButton, Toolbar, Typography } from '@material-ui/core';
 import { Menu } from '@material-ui/icons';
 import FeatherIcon from 'feather-icons-react';
 import LeftDrawer from './LeftDrawer';
+import NavBar from './NavBar';
 import headshot from './img/headshot.jpg';
 
 const styles = {
@@ -44,19 +45,22 @@ export class Header extends Component {
 	          onClick={() => this.toggleDrawer(false)}
 	        />
 			  	<AppBar className="Header-app-bar" position="fixed" color="secondary">
+			  		<div className="Header-toolbar">
 			  		<Toolbar>
-				  		<IconButton
-				  			className={classes.menuButton}
-				  			color="inherit"
-				  			aria-label="Menu"
-				  			onClick={() => this.toggleDrawer(true)}
-				  		>
-				  			<Menu />
-				  		</IconButton>
-			  			<Typography variant="h6" color="inherit" className={classes.appTitle}>
-			  				{title}
-			  			</Typography>
-				  	</Toolbar>
+					  		<IconButton
+					  			className={classes.menuButton}
+					  			color="inherit"
+					  			aria-label="Menu"
+					  			onClick={() => this.toggleDrawer(true)}
+					  		>
+					  			<Menu />
+					  		</IconButton>
+				  			<Typography variant="h6" color="inherit" className={classes.appTitle}>
+				  				<span className="Header-title">{title}</span>
+				  			</Typography>
+					  	</Toolbar>
+					  </div>
+				  	<NavBar />
 			  	</AppBar>
           <img className="Header-headshot" src={headshot} alt="headshot" />
           <h2 className="Header-name">Jason Trip</h2>

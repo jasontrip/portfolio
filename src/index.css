@@ -62,7 +62,7 @@ h2 {
 }
 
 .Header-navbar-links {
-	width: 875px;
+	width: 900px;
 	display: none;
 	margin: 0 auto;
 }
@@ -73,8 +73,8 @@ h2 {
 
 .Header-navbar-links-ul li {
 	display: inline-block;
-	padding: 0 20px 0 20px;
 	letter-spacing: .2em;
+	width: 170px;
 }
 
 .Header-navbar-links-ul li a {

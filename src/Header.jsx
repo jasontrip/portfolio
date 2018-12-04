@@ -77,7 +77,7 @@ export class Header extends Component {
 								className="Header-icons"
 							/>
 						</a>
-						<a href="https://github.com/jasontrip" target="_blank" rel="noopener noreferrer">
+						<a href="https://www.linkedin.com/in/jasontrip/" target="_blank" rel="noopener noreferrer">
 							<FeatherIcon
 								icon="linkedin"
 								className="Header-icons"
